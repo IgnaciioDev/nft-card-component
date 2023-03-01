@@ -1,0 +1,27 @@
+:root {
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    
+    --mainBG: hsl(217, 54%, 11%);
+    --darkBluecardBG: hsl(216, 50%, 16%);
+    --darkBlueline: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    
+}
+
+
+hmtl {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10px; 1rem*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--mainBG);
+}
+
