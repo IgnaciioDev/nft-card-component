@@ -2,7 +2,7 @@
     --softBlue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
     
-    --mainBG: hsl(217, 54%, 11%);
+    --darkMainBG: hsl(217, 54%, 11%);
     --darkBluecardBG: hsl(216, 50%, 16%);
     --darkBlueline: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
@@ -20,8 +20,19 @@ hmtl {
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    background-color: var(--mainBG);
+    background-color: var(--darkMainBG);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
+.container {
+    width: 22rem;
+    height: 30rem;
+    background-color: black;
+}
+
+.img-equilibrium {
+    width: 100%;
+}
