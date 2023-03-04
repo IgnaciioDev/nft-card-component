@@ -6,6 +6,7 @@
     --darkBluecardBG: hsl(216, 50%, 16%);
     --darkBlueline: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
+    --font: 'Outfit', sans-serif;
     
 }
 
@@ -35,4 +36,9 @@ body {
 
 .img-equilibrium {
     width: 100%;
+}
+
+.container p {
+    color: var(--white);
+    font-family: var(--font);
 }
