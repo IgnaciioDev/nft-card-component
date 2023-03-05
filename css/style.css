@@ -36,7 +36,7 @@ body {
     border-radius: 0.7rem;
 }
 
-.img-equilibrium {
+.card-image {
     width: 17rem;
     padding: 1rem;
     border-radius: 1.5rem;
@@ -50,27 +50,43 @@ body {
     margin-top: 0rem;
 }
 
-.info {
+.card-info {
     color: var(--white);
     font-family: var(--font);
     font-weight: 400;
     padding-left: 1rem;
 }
 
-.price {
+.card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-icon img {
+    width: 1rem;
+    height: 2rem;
+}
+
+.card-price {
     display: flex;
     justify-content: space-between;
     padding: 0rem 1rem;
     font-family: var(--font);
 }
 
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.card-time {
+
 }
 
-.footer img {
+.card-footer {
+    display: flex;
+    align-items: center;
+}
+
+.card-footer img {
     width: 3rem;
     margin: 1rem;
 }
+
+
