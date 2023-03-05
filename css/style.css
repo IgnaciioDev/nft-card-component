@@ -63,11 +63,6 @@ body {
     justify-content: space-evenly;
 }
 
-.card-icon img {
-    width: 1rem;
-    height: 2rem;
-}
-
 .card-price {
     display: flex;
     justify-content: space-between;
