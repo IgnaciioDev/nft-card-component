@@ -55,19 +55,31 @@ body {
     font-family: var(--font);
     font-weight: 400;
     padding-left: 1rem;
+    
 }
+
+/* .card-border {
+    border-bottom-style: solid;
+    border-color: var(--darkBlueline);
+    border-width: .1rem;
+    padding: 1rem;
+} */
 
 .card-icon {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-color: var(--darkBlueline);
+    border-width: .1rem;
+    margin: 0rem 1rem;
 }
 
 .card-price {
     display: flex;
-    justify-content: space-between;
-    padding: 0rem 1rem;
+    align-items: center;
     font-family: var(--font);
+    gap: .4rem;
 }
 
 .card-time {
@@ -77,6 +89,7 @@ body {
 .card-footer {
     display: flex;
     align-items: center;
+    
 }
 
 .card-footer img {
