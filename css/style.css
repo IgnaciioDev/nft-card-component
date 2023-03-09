@@ -57,7 +57,7 @@ body {
     font-size: 1.5rem
 }
 
-.container h2:hover {
+.container h1:hover {
     color: var(--cyan);
 }
 
